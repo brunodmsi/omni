@@ -30,7 +30,26 @@
   text-align: center;
 }
 
+@keyframes upAndDown {
+  0%, 100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+.objectives-container svg {
+  width: 100px;
+  fill: #fefefe;
+  margin-bottom: 40px;
+  animation: upAndDown 1s linear infinite;
+}
+
 .objective-item svg {
   width: 70px;
   padding: 10px;
+  animation: none;
+  fill: none;
 }
+

@@ -19,3 +19,7 @@ body {
 input, button {
   font: 400 18px 'Montserrat', sans-serif;
 }
+
+.clickable-svg {
+  cursor: pointer;
+}
