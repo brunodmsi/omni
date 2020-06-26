@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font: 400 14px 'Roboto', sans-serif;
+  background: #f4f4f4;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button {
+  font: 400 18px 'Montserrat', sans-serif;
+}
