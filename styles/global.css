@@ -23,3 +23,28 @@ input, button {
 .clickable-svg {
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .objectives-container h1,
+  .concept-container h1,
+  .groups-container h1
+  {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .objectives-container h1,
+  .concept-container h1,
+  .groups-container h1
+  {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 0 30px;
+  }
+}

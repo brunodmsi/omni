@@ -1,8 +1,8 @@
 .start {
   display: flex;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   flex-direction: column;
-  height: 90vh;
+  min-height: 100vh;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -34,6 +34,7 @@
   background-color: #1fbae9;
   border: 0;
   color: #fefefe;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -53,4 +54,26 @@
   fill: #fefefe;
   margin-bottom: 40px;
   animation: upAndDown 1s linear infinite;
+}
+
+@media (max-width: 450px) {
+  .start img {
+    width: 300px;
+  }
+
+  .start button {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #1fbae9;
+    border: 0;
+    color: #fefefe;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .start img {
+    width: 250px;
+  }
 }

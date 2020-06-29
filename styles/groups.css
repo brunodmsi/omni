@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.2);
+  min-height: 100vh;
+  background-color: #fefefe;
 }
 
 .groups-container h1 {
   font-size: 70px;
+  padding: 0 40px;
   color: #1fbae9;
 }
 
@@ -22,16 +23,28 @@
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: #fefefe;
+  background-color: rgba(4, 11, 60, 0.9);
   border-radius: 10px;
   margin: 20px;
 }
 
 .groups-box section h1 {
-  color: #000;
+  color: #fefefe;
   font-size: 40px;
 }
 
 .groups-box section p {
+  color: #fefefe;
   font-size: 25px;
+}
+
+.groups-box section img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .groups-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

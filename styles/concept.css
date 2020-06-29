@@ -1,6 +1,6 @@
 .concept-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
@@ -27,7 +27,8 @@
 
 .concept-box img {
   max-width: 700px;
-  width: auto !important;
+  width: auto;
+  height: 400px;
 }
 
 
@@ -42,7 +43,39 @@
 
 .concept-container svg {
   width: 100px;
-  fill: #000;
+  fill: #1fbae9;
   margin-bottom: 40px;
   animation: upAndDown 1s linear infinite;
+}
+
+@media (max-width: 1250px) {
+  .concept-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .concept-box img {
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .concept-box p {
+    font-size: 20px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 500px) {
+  .concept-box {
+    padding: 0 30px;
+  }
+
+  .concept-box img {
+    max-width: 400px;
+    height: 250px;
+  }
+
+  .concept-box p {
+    font-size: 16px;
+  }
 }
