@@ -25,7 +25,13 @@
 .start img {
   width: 400px;
   margin-bottom: 50px;
-  /* height: 600px; */
+}
+
+.start .cesupa-logo {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 100px;
+  width: 200px;
 }
 
 .start button {
