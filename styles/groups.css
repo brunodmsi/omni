@@ -26,7 +26,11 @@
   background-color: rgba(4, 11, 60, 0.9);
   border-radius: 10px;
   margin: 20px;
-  text-decoration: none;;
+  text-decoration: none;
+}
+
+.groups-box a:hover[href] {
+  background-color: rgba(4, 11, 60, 0.8);
 }
 
 .groups-box a h1 {
