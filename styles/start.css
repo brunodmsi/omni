@@ -25,7 +25,11 @@
 .start img {
   width: 400px;
   margin-bottom: 50px;
-  /* height: 600px; */
+}
+
+.start .cesupa-logo {
+  margin-top: 100px;
+  width: 200px;
 }
 
 .start button {
@@ -70,10 +74,18 @@
     font-weight: 600;
     font-size: 14px;
   }
+
+  .start .cesupa-logo {
+    width: 150px;
+  }
 }
 
 @media (max-width: 340px) {
   .start img {
     width: 250px;
+  }
+
+  .start .cesupa-logo {
+    width: 120px;
   }
 }

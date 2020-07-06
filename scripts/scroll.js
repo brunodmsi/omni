@@ -2,11 +2,6 @@
 
 const body = document.querySelector('body, html');
 
-const toStartButton = document.querySelector('#goto-start');
-const toConceptButton = document.querySelector('#goto-concept');
-const toObjectiveButton = document.querySelector('#goto-objective');
-const toGroupsButton = document.querySelector('#goto-groups');
-
 const svgStart = document.querySelector('#start-continue'); 
 const svgContinue = document.querySelector('#concept-continue'); 
 const svgObjective = document.querySelector('#objective-continue'); 
